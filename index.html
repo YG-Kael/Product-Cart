@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add To Cart</title>
+
+    <link rel="stylesheet" href="add-to-cart.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Desserts</h1>
+    </header>
+
+    <section class="section1"></section>
+
+    <section class="section2">
+      <div class="cart-card">
+        <h3 class="added-cart">Your Cart (0)</h3>
+        <div class="your-cart">
+          <img
+            class="sec1-img"
+            src="./assets/images/illustration-empty-cart.svg"
+            alt=""
+          />
+          <p class="cart-p">Your added items will appear here</p>
+        </div>
+        <div class="your-cart2">
+          <div class="all-cart-items"></div>
+          <div class="total-div">
+            <span class="order-span">Order Total </span>
+            <span class="total-span">$0</span>
+          </div>
+          <br />
+          <div class="carbon">
+            <span>
+              <img
+                class="carbon-img"
+                src="./assets/images/icon-carbon-neutral.svg"
+                alt=""
+              />
+              This is a
+              <span class="span-carbon">carbon-neautral</span>delivery</span
+            >
+          </div>
+        </div>
+        <button class="confirm-btn">Confirm Order</button>
+      </div>
+    </section>
+
+    <section class="section3">
+      <div class="order-card">
+        <img
+          class="order-icon"
+          src="./assets/images/icon-order-confirmed.svg"
+          alt=""
+        />
+        <h2 class="order-header">Order Confirmed</h2>
+        <p class="order-p">we hope you enjoyed your food!</p>
+        <div class="order-cart">
+          <div class="items-ordered"></div>
+          <div class="span-d">
+            <span class="span-order">Order Total</span>
+            <span class="span-total"> $0</span>
+          </div>
+        </div>
+
+        <br />
+        <button class="order-btn">Start New Order</button>
+      </div>
+    </section>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
