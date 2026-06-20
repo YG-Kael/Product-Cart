@@ -238,6 +238,14 @@ span {
   margin-right: 0.2rem;
 }
 
+.span-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0rem 1rem;
+}
+
 .confirm-btn {
   background-color: rgb(199, 58, 15);
   color: rgb(244, 237, 235);
@@ -366,7 +374,7 @@ span {
   border-radius: 20px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   body {
     display: flex;
     flex-direction: column;
