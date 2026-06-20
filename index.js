@@ -30,7 +30,7 @@ function createProductCards(products) {
     .map(
       ({ category, name, price, image }, index) => `
       <div class="waffle">
-        <img class="waf-img" src="${image.desktop}" alt="${name}" />
+        <img class="waf-img" src="${window.matchMedia("(max-width: 376px)").matches ? image.mobile : image.desktop}" alt="${name}" />
         <div class="waf-p">
           <button class="waf-btn" data-index="${index}">
             <img

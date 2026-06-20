@@ -365,3 +365,57 @@ span {
   border: none;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 376px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 1rem;
+    grid-gap: 1rem;
+  }
+
+  .section1,
+  .section2 {
+    width: 100%;
+  }
+
+  .section1 {
+    grid-template-columns: 1fr;
+  }
+
+  .waffle {
+    width: 100%;
+  }
+
+  .section2 {
+    width: 100%;
+    grid-area: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .span-c {
+    width: 100%;
+  }
+
+  .section3 {
+    display: flex;
+    width: calc(100% - 2rem);
+    height: 100%;
+    margin: 0rem;
+    position: fixed;
+    display: none;
+  }
+
+  .order-card {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .items-text {
+    padding: 0rem 0rem 0rem 0.8rem;
+  }
+}
